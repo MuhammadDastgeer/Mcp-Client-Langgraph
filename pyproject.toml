@@ -1,0 +1,20 @@
+[project]
+name = "mcp-client-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=4.0.0",
+    "ddgs>=9.9.1",
+    "duckduckgo-search>=8.1.1",
+    "langchain-community>=0.4.1",
+    "langchain-mcp-adapters>=0.1.13",
+    "langchain-openai>=1.0.3",
+    "langgraph>=1.0.3",
+    "langgraph-checkpoint-sqlite>=3.0.0",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.51.0",
+    "typing>=3.10.0.0",
+    "uuid>=1.30",
+]
